@@ -33,23 +33,27 @@
     }
 
     /* ZONES CLIQUABLES */
-    .btn-live {
-      position: absolute;
-      top: 46%;
-      left: 18%;
-      width: 28%;
-      height: 9%;
-      cursor: pointer;
-    }
+.btn-live,
+.btn-page {
+  position: absolute;
+  display: block;          /* 🔥 LA LIGNE QUI MANQUAIT */
+  cursor: pointer;
+}
 
-    .btn-page {
-      position: absolute;
-      top: 46%;
-      left: 52%;
-      width: 30%;
-      height: 9%;
-      cursor: pointer;
-    }
+.btn-live {
+  top: 46%;
+  left: 18%;
+  width: 28%;
+  height: 9%;
+}
+
+.btn-page {
+  top: 46%;
+  left: 52%;
+  width: 30%;
+  height: 9%;
+}
+
 
     /* Debug visuel (désactivé)
     .btn-live, .btn-page {
