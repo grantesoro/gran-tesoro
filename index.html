@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Gran Tesoro — Live</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: black;
+    }
+
+    .page {
+      position: relative;
+      width: 100%;
+      max-width: 1200px;
+    }
+
+    .page img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* ZONES CLIQUABLES */
+    .btn-live {
+      position: absolute;
+      top: 46%;
+      left: 18%;
+      width: 28%;
+      height: 9%;
+      cursor: pointer;
+    }
+
+    .btn-page {
+      position: absolute;
+      top: 46%;
+      left: 52%;
+      width: 30%;
+      height: 9%;
+      cursor: pointer;
+    }
+
+    /* Debug visuel (désactivé)
+    .btn-live, .btn-page {
+      border: 2px solid red;
+    }
+    */
+  </style>
+</head>
+
+<body>
+
+  <div class="page">
+
+    <img src="background.jpg" alt="Gran Tesoro Live">
+
+    <!-- BOUTON LIVE -->
+    <a href="LIEN_LIVE" target="_blank" class="btn-live" aria-label="Participer au live"></a>
+
+    <!-- BOUTON PAGE -->
+    <a href="https://www.whatnot.com/s/OBfhquIO" target="_blank" class="btn-page" aria-label="Accéder à notre page"></a>
+
+  </div>
+
+</body>
+</html>
 
